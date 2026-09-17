@@ -4,7 +4,7 @@ Code for **Soft Posterior Speaker Injection for Multi-Talker Speech Recognition*
 
 Overlapped two-speaker ASR on Whisper. A Soft Posterior Head predicts a per-frame speaker share \(\hat{\mathbf{P}}\) from an unconditioned encoder pass. The share is injected with **Multi-layer Feature-wise Linear Modulation (MFLM)** and **Speaker Memory Prompts (SMP)**. No external diarizer at inference.
 
-Paper manuscript: [`ICASSP2027__SPSI/`](http://arxiv.org/abs/2609.01287).
+Paper manuscript: [`Arxive__SPSI/`](http://arxiv.org/abs/2609.01287).
 
 ## Method
 
