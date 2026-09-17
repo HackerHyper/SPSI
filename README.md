@@ -206,7 +206,7 @@ text = model.transcribe_mixture(mel)  # SOT string: <spk0> ... <spk1> ...
 @inproceedings{zhu2027spsi,
   title     = {Soft Posterior Speaker Injection for Multi-Talker Speech Recognition},
   author    = {Zhu, Jian and Sun, Jun and Yang, Jiang and Zhou, Ying
-               and Luo, Cheng and Shi, Junhui and Dai, Li-Rong},
+               and Luo, Cheng and Ai, Yang and Sun, Hong-Hao and Shi, Junhui and Dai, Li-Rong},
   booktitle = {ICASSP},
   year      = {2027}
 }
