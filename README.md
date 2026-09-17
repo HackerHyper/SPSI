@@ -4,7 +4,7 @@ Code for **Soft Posterior Speaker Injection for Multi-Talker Speech Recognition*
 
 Overlapped two-speaker ASR on Whisper. A Soft Posterior Head predicts a per-frame speaker share \(\hat{\mathbf{P}}\) from an unconditioned encoder pass. The share is injected with **Multi-layer Feature-wise Linear Modulation (MFLM)** and **Speaker Memory Prompts (SMP)**. No external diarizer at inference.
 
-Paper manuscript: [`ICASSP2027__SPSI/`](ICASSP2027__SPSI/).
+Paper manuscript: [`ICASSP2027__SPSI/`](http://arxiv.org/abs/2609.01287).
 
 ## Method
 
@@ -49,7 +49,6 @@ src/dataset.py           # overlap jsonl + collate
 src/metrics.py           # cpWER / ORC-WER
 src/overlap_mix.py       # mixing utilities
 scripts/                 # data, eval, paper plots, launchers
-ICASSP2027__SPSI/        # ICASSP manuscript
 ```
 
 Large artifacts (`checkpoints/`, `evals/`, `logs/`, `manifests/`, `data/`) are experiment outputs. Do not commit them.
@@ -207,7 +206,7 @@ text = model.transcribe_mixture(mel)  # SOT string: <spk0> ... <spk1> ...
 @inproceedings{zhu2027spsi,
   title     = {Soft Posterior Speaker Injection for Multi-Talker Speech Recognition},
   author    = {Zhu, Jian and Sun, Jun and Yang, Jiang and Zhou, Ying
-               and Luo, Cheng and Liu, Cong and Dai, Li-Rong},
+               and Luo, Cheng and Shi, Junhui and Dai, Li-Rong},
   booktitle = {ICASSP},
   year      = {2027}
 }
